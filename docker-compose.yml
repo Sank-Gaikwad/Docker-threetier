@@ -17,7 +17,7 @@ services:
   app:
     image: bitnami/php-fpm
     volumes:
-      - ./app/code:/var/www/html  # ✅ Fix: Correct location for PHP files
+      - ./app/code:/var/www/html  # 
     networks:
       - webnet
       - dbnet
